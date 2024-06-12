@@ -1,8 +1,56 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4 font-weight-bold">Welcome</h1>
-    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<div class="container home-page">
+    <div class="jumbotron bg-warning text-dark mt-4">
+        <h1 class="display-4">Welcome to DHL E-Commerce Portal</h1>
+        <p class="lead">Manage your shipments and access exclusive services all in one place.</p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-header bg-danger text-white text-center">
+                    <h3>User Information</h3>
+                </div>
+                <div class="card-body">
+                    <p><strong>Username:</strong> admin</p>
+                    <p><strong>Membership:</strong> Premium</p>
+                    <p><strong>Last Login:</strong> Today</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="card mb-4">
+                <div class="card-header bg-danger text-white text-center">
+                    <h3>Quick Links</h3>
+                </div>
+                <div class="card-body">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action" aria-label="Track Shipments"><i class="fas fa-shipping-fast"></i> Track Shipments</a>
+                        <a href="#" class="list-group-item list-group-item-action" aria-label="Manage Orders"><i class="fas fa-clipboard-list"></i> Manage Orders</a>
+                        <a href="#" class="list-group-item list-group-item-action" aria-label="Exclusive Deals"><i class="fas fa-gift"></i> Exclusive Deals</a>
+                        <a href="#" class="list-group-item list-group-item-action" aria-label="Customer Support"><i class="fas fa-headset"></i> Customer Support</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-4">
+        <div class="card-header bg-danger text-white text-center">
+            <h3>Latest News</h3>
+        </div>
+        <div class="card-body">
+            <p>Stay updated with the latest news and updates from DHL.</p>
+            <ul class="list-group">
+                <li class="list-group-item">New delivery options available starting next month.</li>
+                <li class="list-group-item">Exclusive discounts for premium members.</li>
+                <li class="list-group-item">Improved tracking features now live.</li>
+            </ul>
+        </div>
+    </div>
 </div>

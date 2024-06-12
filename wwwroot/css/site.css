@@ -12,33 +12,24 @@ body {
   margin-bottom: 20px;
 }
 
-.card {
+/* Specific styles for the homepage */
+.home-page .jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: .3rem;
+}
+
+.home-page .card {
   background-color: rgba(255, 255, 255, 0.9);
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
-.card-header {
-  background-color: #FFCC00;
-  color: #000;
-}
-
-.btn-danger {
+.home-page .card-header {
   background-color: #FF0000;
-  border-color: #FF0000;
+  color: #FFF;
 }
 
-.welcome-content {
-  margin-top: 50px;
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 8px;
-}
-
-.feature-list {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.feature-list li {
-  margin-bottom: 10px;
+.home-page .list-group-item {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: none;
 }

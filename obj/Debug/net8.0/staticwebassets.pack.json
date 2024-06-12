@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\User\\Downloads\\Internship_Folder\\DHL\\DHL_ecommerce_login_page\\wwwroot\\images\\dhl_bg.webp",
+      "PackagePath": "staticwebassets\\images\\dhl_bg.webp"
+    },
+    {
+      "Id": "C:\\Users\\User\\Downloads\\Internship_Folder\\DHL\\DHL_ecommerce_login_page\\wwwroot\\images\\dhl_logo.png",
+      "PackagePath": "staticwebassets\\images\\dhl_logo.png"
+    },
+    {
       "Id": "C:\\Users\\User\\Downloads\\Internship_Folder\\DHL\\DHL_ecommerce_login_page\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

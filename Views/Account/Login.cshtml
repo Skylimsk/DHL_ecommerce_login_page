@@ -1,0 +1,51 @@
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header bg-warning text-center">
+                    <h3 class="text-dark">DHL Login</h3>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Login" method="post">
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" class="form-control" id="username" name="username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" name="password" required>
+                        </div>
+                        <button type="submit" class="btn btn-danger btn-block">Login</button>
+                    </form>
+                </div>
+                @if (ViewBag.ErrorMessage != null)
+                {
+                    <div class="card-footer">
+                        <div class="alert alert-danger" role="alert">
+                            @ViewBag.ErrorMessage
+                        </div>
+                    </div>
+                }
+                <div class="card-footer text-center">
+                    <a href="#" class="text-danger font-weight-bold">Forgot Password?</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="welcome-content">
+                <h2>Welcome to DHL E-Commerce Portal</h2>
+                <p>Enhancing your logistics experience with seamless online services. Log in to access your account and manage your shipments efficiently.</p>
+                <ul class="feature-list">
+                    <li>Track your shipments in real-time</li>
+                    <li>Manage your orders</li>
+                    <li>Access exclusive deals and offers</li>
+                    <li>Get customer support</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

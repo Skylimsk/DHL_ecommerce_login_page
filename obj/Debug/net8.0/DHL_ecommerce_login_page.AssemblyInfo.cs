@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DHL_ecommerce_login_page")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d6f412d71ded4ba12d233a76e3860c69a5199cd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+247903d3964bbbb67f40be1367aed93b5e3597f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("DHL_ecommerce_login_page")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DHL_ecommerce_login_page")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
